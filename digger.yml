@@ -1,6 +1,7 @@
 projects:
   - name: dev
     dir: .
+    apply_approval: true
     workflow: aom
    
 workflows:
@@ -8,4 +9,4 @@ workflows:
     workflow_configuration:
       on_pull_request_pushed: [digger plan]
       on_pull_request_closed: [digger unlock]
-      on_commit_to_default: [digger plan, digger apply]
+      on_commit_to_default: [digger apply]
