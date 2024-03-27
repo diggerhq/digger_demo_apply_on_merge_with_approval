@@ -30,8 +30,8 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
           digger-token: ${{ secrets.DIGGER_TOKEN }}
-          digger-hostname: 'https://cloud.digger.dev'
-          digger-organisation: 'digger-playground'
+          digger-hostname: 'https://879f-5-151-139-92.ngrok-free.app'
+          digger-organisation: 'digger'
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
