@@ -21,6 +21,11 @@ jobs:
       statuses: write      # required to validate combined PR status
 
     steps:
+      - name: Parameters
+        env:
+          PARAMETERS: "${{ tojson(inputs) }}"
+        run: echo See env for the parameters
+    
       - uses: actions/checkout@v4
       - name: digger run
         uses: diggerhq/digger@v0.4.13
