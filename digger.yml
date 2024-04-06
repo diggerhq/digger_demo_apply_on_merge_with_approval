@@ -2,7 +2,7 @@ projects:
   - name: dev
     dir: .
     apply_approval: true
-  - name: dev
+  - name: prod
     dir: .
     apply_approval: true
    
