@@ -3,10 +3,6 @@ projects:
     dir: .
     apply_approval: true
     workflow: aom
-  - name: prod
-    dir: .
-    apply_approval: true
-    workflow: aom
    
 workflows:
   aom:
