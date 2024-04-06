@@ -2,7 +2,9 @@ projects:
   - name: dev
     dir: .
     apply_approval: true
-    workflow: aom
+  - name: dev
+    dir: .
+    apply_approval: true
    
 workflows:
   aom:
