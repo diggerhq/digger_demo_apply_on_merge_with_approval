@@ -1,9 +1,9 @@
 projects:
   - name: dev
-    dir: .
+    dir: dev
     apply_approval: true
   - name: prod
-    dir: .
+    dir: prod
     apply_approval: true
 
    
