@@ -5,6 +5,9 @@ projects:
   - name: prod
     dir: prod
     apply_approval: true
+  - name: staging
+    dir: staging
+    apply_approval: true
 
    
 workflows:
