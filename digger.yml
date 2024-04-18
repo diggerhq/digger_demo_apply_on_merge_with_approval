@@ -8,8 +8,7 @@ projects:
   - name: staging
     dir: staging
     apply_approval: true
-
-   
+    
 workflows:
   aom:
     workflow_configuration:
